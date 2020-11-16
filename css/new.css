@@ -1,0 +1,47 @@
+.header-social-link {
+    display: inline-block;
+    width: 40px;
+    height: 40px;  
+    cursor: pointer; 
+    transition: 0.6s; 
+    margin-right: 8px;
+}
+
+.header-social-link.telegram {
+    background: url(../icon/telegram-icon.svg) center no-repeat;
+}
+
+.header-social-link.whatsapp {
+    background: url(../icon/whatsapp-icon.svg) center no-repeat;
+}
+
+.header-social-link.telegram:hover {
+    background: url(../icon/telegram-icon-hover.svg) center no-repeat;
+}
+
+.header-social-link.whatsapp:hover {
+    background: url(../icon/whatsapp-icon-hover.svg) center no-repeat;
+}
+
+.header_center_c .tel_link {
+    margin-right: 22px;
+}
+
+@media screen and (max-width: 767px) { 
+
+    .header_center_c .tel_link {
+        margin-right: 8px;
+    }
+    
+
+
+}
+
+@media screen and (max-width: 429px) { 
+
+    .header-social-link {
+        display: none;
+    }
+
+
+}
